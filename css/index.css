@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&subset=cyrillic,cyrillic-ext');
+:root {
+    font-family: 'Lobster', sans-serif;
+    color: black;
+}
+body{
+    min-width: 300px;
+    max-width: 980px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.langRadio{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.langRadio input{
+    display: block;
+}
+
+.logo{
+    display: flex;
+}
+header .mainLogo .logo h1{
+    margin: auto;
+}
+.logo img{
+    margin-left: 30px;
+}
+header{
+    background-color: lightgrey;
+}
+header nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 0 0;
+    padding: 50px 0;
+}
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+.slider {
+    background-image: url(../img/studio.jpg);
+    min-height: 400px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 0 30px 50px 30px;
+    display: flex;
+    flex-direction:column;
+}
+.about input{
+    margin: auto;
+    display: block;
+}
+
+.about .button{
+    padding: 50px 0;
+}
+input[type="button"] {
+  position: relative;
+  display: inline-block;
+  font-size: 1.5em;
+  color: rgb(245,245,245);
+  text-shadow: 0 -1px rgba(0,0,0,.1);
+  text-decoration: none;
+  user-select: none;
+  padding: .3em 1em;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background: #0c9c0d linear-gradient(#82d18d, #0c9c0d);
+  box-shadow: inset #72de26 0 -1px 1px, inset 0 1px 1px #98ff98, #3caa3c 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
+  -webkit-animation: pulsate 1.2s linear infinite;
+  animation: pulsate 1.2s linear infinite;
+}
+input[type="button"]:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  cursor: grab;
+}
+input[type="button"]:active {
+  top: 1px;
+  color: #fff;
+  text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+  box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+.about .article{
+    color: seagreen;
+}
+.links{
+    display: flex;
+    justify-content:center;
+}
+.linksImg{
+    display: flex;
+    align-items:center;
+}
+.linksImg img{
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.masterClasses{
+    background-color: #f7fade;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.masterClasses .aparatClassicHeader{
+    text-align: center;
+}
+.masterClasses .classicImg{
+    background-image: url(../img/classic.jpg)
+}
+.masterClasses .aparatImg{
+    background-image: url(../img/aparat.jpg)
+}
+.masterClasses .classicImg,.aparatImg{
+    width: 400px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+.feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f9f8;
+    padding-bottom: 50px;
+}
+.feedback .feedbackItem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 30px;
+}
+.feedback input{
+    height: 30px;
+    min-width: 200px;
+}
+.feedback button{
+    display: block;
+    margin: auto;
+    border-radius: 2px;
+    font-family: Lobster;
+    padding: 10px;
+}
+.feedback button:hover {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+footer{
+    background-color: lightgrey;
+    display: flex;
+    justify-content:center;
+}
+
