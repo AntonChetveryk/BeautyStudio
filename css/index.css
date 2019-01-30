@@ -92,6 +92,7 @@ input[type="button"]:hover {
   -webkit-animation-play-state: paused;
   animation-play-state: paused;
   cursor: grab;
+  background:lightgrey;
 }
 input[type="button"]:active {
   top: 1px;
