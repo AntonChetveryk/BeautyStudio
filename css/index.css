@@ -68,27 +68,25 @@ header a:hover{
     padding: 50px 0;
 }
 input[type="button"] {
-  position: relative;
-  display: inline-block;
-  font-size: 1.5em;
-  color: rgb(245,245,245);
-  text-shadow: 0 -1px rgba(0,0,0,.1);
-  text-decoration: none;
-  user-select: none;
-  padding: .3em 1em;
-  outline: none;
-  border: none;
-  border-radius: 3px;
-  background: #0c9c0d linear-gradient(#82d18d, #0c9c0d);
-  box-shadow: inset #72de26 0 -1px 1px, inset 0 1px 1px #98ff98, #3caa3c 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
-  -webkit-animation: pulsate 1.2s linear infinite;
-  animation: pulsate 1.2s linear infinite;
+text-align: center;
+box-sizing: content-box;
+font-family: Lobster;
+font-size: 10px;
+border-radius: 30px;
+padding: 20px 30px;
+width: 50%;
+background: rgba(246,255,82,1);
+background: -moz-linear-gradient(left, rgba(246,255,82,1) 0%, rgba(182,233,63,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(246,255,82,1)), color-stop(100%, rgba(182,233,63,1)));
+background: -webkit-linear-gradient(left, rgba(246,255,82,1) 0%, rgba(182,233,63,1) 100%);
+background: -o-linear-gradient(left, rgba(246,255,82,1) 0%, rgba(182,233,63,1) 100%);
+background: -ms-linear-gradient(left, rgba(246,255,82,1) 0%, rgba(182,233,63,1) 100%);
+background: linear-gradient(to right, rgba(246,255,82,1) 0%, rgba(182,233,63,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6ff52', endColorstr='#b6e93f', GradientType=1 );
 }
 input[type="button"]:hover {
-  -webkit-animation-play-state: paused;
-  animation-play-state: paused;
-  cursor: grab;
-  background:lightgrey;
+  cursor: pointer;
+  background: rgba(246,255,82,5);
 }
 input[type="button"]:active {
   top: 1px;
