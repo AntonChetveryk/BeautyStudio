@@ -14,10 +14,6 @@ body{
     width: 100%;
     justify-content: flex-end;
 }
-.langRadio input{
-    display: block;
-}
-
 .logo{
     display: flex;
 }
@@ -117,6 +113,15 @@ input[type="button"]:active {
     border-radius: 3px;
     margin-left: 10px;
 }
+.map{
+    width: 70%;
+    margin: auto;
+}
+iframe {
+			width: 100%;
+			min-height: 200px;
+			border: none;
+		}
 .masterClasses{
     background-color: #f7fade;
     display: flex;
@@ -124,17 +129,22 @@ input[type="button"]:active {
     align-items: center;
     padding-bottom: 50px;
 }
+.masterClasses .classic, .aparat{
+    width: 80%;
+}
 .masterClasses .aparatClassicHeader{
     text-align: center;
 }
+
 .masterClasses .classicImg{
-    background-image: url(../img/classic.jpg)
+    background-image: url(../img/classic.jpg);
+    
 }
 .masterClasses .aparatImg{
     background-image: url(../img/aparat.jpg)
 }
 .masterClasses .classicImg,.aparatImg{
-    width: 400px;
+    margin: auto;
     height: 200px;
     background-position: center;
     background-size: cover;
@@ -150,6 +160,7 @@ input[type="button"]:active {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 30px;
+    text-align: center;
 }
 .feedback input{
     height: 30px;
@@ -172,4 +183,3 @@ footer{
     display: flex;
     justify-content:center;
 }
-
